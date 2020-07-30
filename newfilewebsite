@@ -1,0 +1,104 @@
+<html>
+
+<head>
+  <title>Aidan's Website</title>
+</head>
+
+<body>
+  <div class="mydiv">
+    <h2>This is my website.</h2>
+  </div>
+
+  <hr />
+
+  <p style="color: blue; background-color: yellow;">Welcome to it.</p>
+  <p>
+    <big>This is</big> <small>interesting</small>
+    <p>
+      <a href="https://www.google.com" target="_blank">google home page.</a>
+      <!-- target="_blank" opens link up in a new tab -->
+      <p> click above to navigate to it </p>
+      <img width="150" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg" alt="A rocket" />
+      <p> random rocket </p>
+
+      <!-- it will resize aspect ratio if you just put width="" -->
+      <!-- alt tags are text for when an image is not avaliable -->
+      <!--       <video src="https://www.youtube.com/watch?v=I4Sw00QL_fk" poster="https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg" controls width="400"></video> -->
+      <!-- this is for videos that come from the computer -->
+
+      <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-J2XoTUR-rw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- this is for videos from youtube, use embed from share button -->
+
+        <!-- ul is for lists -->
+        <div id="list">
+          <ul>
+            <li><a href="#">Apples</a></li>
+            <li>Oranges</li>
+            <li>Bananas</li>
+          </ul>
+        </div>
+
+        <div>
+          <ol type="i">
+            <li><a href="#">Apples</a></li>
+            <li>Oranges</li>
+            <li>Bananas</li>
+          </ol>
+        </div>
+
+        <dl>
+          <dt>A list</dt>
+          <dd>part of the list</dd>
+        </dl>
+
+        <table>
+          <caption>My Table</caption>
+          <thead>
+            <tr>
+              <th>num1</th>
+              <th>num2</th>
+              <th>num3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+
+              <td>two</td>
+              <td>three</td>
+              <td>three</td>
+            </tr>
+            <tr>
+              <td>four</td>
+              <td>five</td>
+              <td>six</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <input type="text" value="Enter your email" />
+        <input type="password" />
+        <input type="number" />
+        <input type="checkbox" />
+        <input type="color" />
+        <input type="date" />
+        <input type="email" />
+        <input type="file" />
+        <input type="radio" />
+        <input type="submit" />
+        <input type="time" />
+        <input type="url" />
+
+        <input name="btn" type="radio" />
+        <input name="btn" type="radio" />
+
+        <textarea rows="10" cols="30">Enter a sentence.</textarea>
+        <p>
+
+          <!-- for a embed website
+       not all websites can be used as an iframe, because of security purposes -->
+          <iframe src="https://www.mikedane.com/programming-languages/c++/math/" frameborder="0" width="1000" height="1000">iframe not supported</iframe>
+
+</body>
+
+</html>
