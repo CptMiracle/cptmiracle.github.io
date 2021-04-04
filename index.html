@@ -5,8 +5,8 @@
 <head>
   <meta charset="utf-8">
   <title>Aidan's Website</title>
-
-  <style> 
+  <link rel="stylesheet" href="style.css" /> 
+  <!-- <style> The old style
   h1 {
     color: rgb(0, 255, 255);
   }
@@ -16,15 +16,22 @@
   }
 
   #header {
-    /* background-color: rgb(0,100,100) */
+    background-color: rgb(0,100,100);
+    opacity: 0.8;
   }
 
   .mydiv {
-    color: rgb(10,10,10)  
+    color: rgb(10,10,10);
+  }
+  
+  .anotherdiv {
+    color: rgb(100,200,300);
+    padding: 50px;
+    margin: 10px;
   }
   
   
-  </style>
+  </style> -->
 </head>     
 
 <!-- Body -->
@@ -32,6 +39,10 @@
   <div class="mydiv">
     <h1 id="header">  This is my website</h1>
 
+  </div>
+
+  <div class="anotherdiv">  
+    <h2 style="text-shadow: 2px 2px black;"> Welcome to my website</h2>
   </div>
 
   <hr/>
@@ -43,7 +54,7 @@
       <a href="https://www.google.com" target="_blank">google home page.</a>
       <!-- target="_blank" opens link up in a new tab -->
       <p> click above to navigate to it </p>
-      <img width="150" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg" alt="A rocket" />
+      <img class="imgstyling" width="150" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg" alt="A rocket" />
       <p> random rocket </p>
 
       <!-- it will resize aspect ratio if you just put width="" -->

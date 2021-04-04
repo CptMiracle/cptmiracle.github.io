@@ -1,0 +1,27 @@
+h1 {
+  color: rgb(0, 255, 255);
+}
+
+body {
+  background-color: rgb(100, 100, 100);
+}
+
+#header {
+  background-color: rgb(0, 100, 100);
+  opacity: 0.8;
+}
+
+.mydiv {
+  color: rgb(10, 10, 10);
+}
+
+.anotherdiv {
+  color: rgb(100, 200, 300);
+  padding: 50px;
+  margin: 10px;
+}
+
+.imgstyling {
+  box-shadow: 2px 2px black;
+  border-radius: 5px;
+}
