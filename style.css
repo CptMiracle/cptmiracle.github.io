@@ -21,7 +21,7 @@ body {
   margin: 10px;
 }
 
-.imgstyling {
+#imgstyling {
   box-shadow: 2px 2px black;
   border-radius: 5px;
 }
