@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-  background-color: rgb(100, 100, 100);
+  background-color: rgb(255, 255, 255);
 }
 
 #header {
@@ -24,4 +24,14 @@ body {
 #imgstyling {
   box-shadow: 2px 2px black;
   border-radius: 5px;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
 }
