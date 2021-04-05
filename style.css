@@ -1,4 +1,4 @@
-h1 {
+#header {
   color: rgb(0, 255, 255);
 }
 
@@ -26,12 +26,11 @@ body {
   border-radius: 5px;
 }
 
-
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
 }

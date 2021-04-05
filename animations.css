@@ -1,0 +1,31 @@
+body {
+  background-color: #333;
+}
+
+@keyframes change-color {
+  0% {
+    background-color: white;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    background-color: red;
+    left: 100px;
+    top: 100px;
+  }
+  100% {
+    background-color: black;
+    left: 100px;
+    top: 0px;
+  }
+}
+
+.box-animation {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: white;
+  animation-name: change-color;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
