@@ -1,20 +1,22 @@
 
 .body {
   min-height: 1000px;
-  
-
 }
 
 .border {
-  width: 60%;
+  min-width: 60%;
   margin: auto;
   background-color: lightgray;
+  margin: -10px;
+  
 }
+
+/* Header and Navigation */
 
 .header {
   font-family: Roboto, Sans-serif;
   text-align: center;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.04);
 }
 
 .navigation {
@@ -139,4 +141,15 @@ nav a {
 .contact-us-button:hover {
   cursor: pointer;
 }
+
+/* Feature Image */
+
+.feature-image-image {
+  position: center;
+  margin-top: 10px;
+  width: 100%;
+  opacity: 0.5;
+}
+
+
 
