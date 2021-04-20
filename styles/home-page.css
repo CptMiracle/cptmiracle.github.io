@@ -16,6 +16,7 @@
   font-family: Roboto, Sans-serif;
   text-align: center;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
 }
 
 .navigation {
@@ -160,6 +161,9 @@ nav a {
   content: "";
    
 }
+.feature-image-content {
+  max-width: 10px;
+}
 
 .feature-image-filter {
   position: absolute;
@@ -181,6 +185,7 @@ nav a {
   font-size: 40px;
   width: 100%;
   text-align: center;
+  word-wrap: break-word;
 }
 
 .feature-image-subtext {
@@ -193,6 +198,7 @@ nav a {
   font-size: 25px;
   width: 100%;
   text-align: center;
+  word-wrap: break-word;
 }
 
 /* Intro */
@@ -234,10 +240,13 @@ nav a {
   padding-bottom: 70px;
   padding-right: 50px;
   font-family: Roboto, Sans-serif;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .footer-content-col {
   flex: 1 1 7px;
+  flex-wrap: wrap;
 }
 
 .footer-content-col-label {
@@ -275,9 +284,18 @@ nav a {
 
 .vertical-line {
   border-left: 1px white solid;
-  margin-right: 100px;
+  width: 15%;
+  margin: 0px;
+  padding: 0px;
   height: 180px;
 }
+
+@media screen and (max-width: 800px) {
+  .vertical-line {
+    display: none;
+  }
+}
+
 
 .footer-content-col-label-heading {
   color:white;
