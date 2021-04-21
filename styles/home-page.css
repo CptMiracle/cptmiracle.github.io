@@ -1,14 +1,11 @@
 
-.body {
-  min-height: 1000px;
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
-.border {
-  min-width: 60%;
-  margin: auto;
-  margin: -10px;
-  
-}
 
 /* Header and Navigation */
 
@@ -183,7 +180,7 @@ nav a {
   transform: translate(-50%, -50%);
   color: white;
   font-family: Roboto, Sans-serif;
-  font-size: 5vw;
+  font-size: 4vw;
   width: 100%;
   text-align: center;
   word-wrap: break-word;
@@ -242,9 +239,10 @@ nav a {
   display: flex;
   justify-content: left;
   padding-left: 40px;
-  max-width: 1000px;
+  max-width: 1168px;
   flex-wrap: wrap;
   margin-bottom: 50px;
+  margin:auto;
 }
 
 .main-row-heading {
@@ -316,7 +314,7 @@ nav a {
   padding-bottom: 70px;
   padding-right: 50px;
   font-family: Roboto, Sans-serif;
-  max-width: 1000px;
+  max-width: 1168px;
   margin: auto;
 }
 

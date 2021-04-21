@@ -1,7 +1,7 @@
 https://www.youtube.com/watch?v=k32voqQhODc
 For flexbox
 
-Use vw instead of px for font-size on text, vw is relative to the screen resolution.
+Use rem instead of px for font-size on text.
 
 Recreate the html and css template
 
