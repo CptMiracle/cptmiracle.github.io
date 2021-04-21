@@ -1,171 +1,185 @@
 <!DOCTYPE html>
 <html>
-
-<!-- ID: use when there will be only one of
-   something on the page, for example: 
-   the navigation of a website.
-
-class: use when there will be multiple instances of 
-something on the page, for example: 
-the articles of a blog. -->
-
-<!-- Use "." to reference a class,
-Use "#" to reference an ID -->
-
-
-<!-- Head -->
 <head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Aidan">
-  <meta name="description" content="test website">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aidan's Website</title>
-  <link rel="stylesheet" href="style.css" /> 
-  <!-- <style> The old style
-  h1 {
-    color: rgb(0, 255, 255);
-  }
-
-  body {
-    background-color: rgb(100, 100, 100);
-  }
-
-  #header {
-    background-color: rgb(0,100,100);
-    opacity: 0.8;
-  }
-
-  .mydiv {
-    color: rgb(10,10,10);
-  }
-  
-  .anotherdiv {
-    color: rgb(100,200,300);
-    padding: 50px;
-    margin: 10px;
-  }
-  
-  
-  </style> -->
-</head>     
-
-<!-- Body -->
+    <title> home-page </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content>
+    <meta name="keywords" content="education, school, study, ontario, canada">
+    <link rel="stylesheet" href="/styles/index.css"/>
+    
+    
+</head>
 <body>
-  <div class="mydiv">
-    <h1 id="header">  This is my website</h1>
-
-  </div>
-
-<!-- Flexbox -->
-<div class="flex-container container">
-  <div class="box flex-item"><h1>1</h1></div>
-  <div class="box2 flex-item"><h1>2</h1></div>
-  <div class="box flex-item"><h1>3</h1></div>
-  <div style="align-self:center;" class="box"><h1>4</h1></div>
-  <div class="box flex-item"><h1>5</h1></div>
-</div>
-
-<p>
-  <a href="/html/home-page.html"; target="_blank">Click here to go to the home page.</a>
-  <br>
-  <a href="/animations/animations.html"; target="_blank">Click here to go the animations page.</a>
-
-
-</p>
-  <div class="anotherdiv">  
-    <h2 style="text-shadow: 2px 2px black;"> Welcome to my website</h2>
-  </div>
-
-  <hr/>
-
-  <p style="color: rgb(0, 0, 255); background-color: yellow;">Welcome to it.</p>
-
-  <big>This is</big> <strong>interesting</strong>
-  <p>
-      <a href="https://www.google.com" target="_blank">google home page.</a>
-      <!-- target="_blank" opens link up in a new tab -->
-      <p> click above to navigate to it </p>
-      <img id="imgstyling" width="150" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg" alt="A rocket" />
-      <p> random rocket </p>
-
-      <!-- it will resize aspect ratio if you just put width="" -->
-      <!-- alt tags are text for when an image is not avaliable -->
-      <!--       <video src="https://www.youtube.com/watch?v=I4Sw00QL_fk" poster="https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg" controls width="400"></video> -->
-      <!-- this is for videos that come from the computer -->
-
-      <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-J2XoTUR-rw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <!-- this is for videos from youtube, use embed from share button -->
-
-        <!-- ul is for lists -->
-        <div id="list">
-          <ul>
-            <li><a href="#">Apples</a></li>
-            <li>Oranges</li>
-            <li>Bananas</li>
-          </ul>
+    <div class="border">
+        <!-- header -->
+        <div class="header">
+            <!-- nav bar -->
+            <nav class="navigation">
+                <h1 id="headerh1"><a href="/" id="headera">StudyHelper</a></h1>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbutton" id="dropbutton" href="/">Subjects</button>
+                            <span class="arrow-up"></span>
+                            <span class="arrow-down"></span>
+                            <div class="dropdown-links">
+                                <a href="#">Math</a><br>
+                                <a href="#">Computer</a><br>
+                                <a href="#">Science</a><br>
+                            </div>
+                    </div>
+                    <a href="#" class="about-us-button"> About Us </a>
+                    <a href="/html/contactus.html" class="contact-us-button"> Contact Us </a>
+            </nav>
+        </div>
+        <div class="feature-image">
+            <div class="feature-image-container">
+                <img src="/img/StudyHelper home image.jpeg" class="feature-image-image" alt="laptop and books on table"></img>
+                <div class="feature-image-content">
+                    <div class="feature-image-header">Connecting you to higher content</div>
+                    <div class="feature-image-filter"></div>
+                    <div class="feature-image-subtext">Less searching, more working</div>
+                </div>
+            </div>
         </div>
 
-        <div>
-          <ol type="i">
-            <li><a href="#">Apples</a></li>
-            <li>Oranges</li>
-            <li>Bananas</li>
-          </ol>
+
+
+        <!-- Main content-->
+
+        <div class="main">
+            <div class="main-container">
+                <div class="main-content">
+                    <div class="main-row"> <!-- Math -->
+                        <h2 class="main-row-heading">Math</h2>
+                        <div class="main-card" onclick=location.href="https://www.jensenmath.ca/">
+                            <div class="main-card-image">
+                                <img src="/img/StudyHelper home image.jpeg" onmouseover="this.src='/gifs/jensenmath3.gif'" onmouseout="this.src='/img/StudyHelper home image.jpeg'"/>
+                            </div>
+                            <div class="main-card-content">
+                                <a class="main-card-title">Jensenmath</a>
+                                <p class="main-card-description">A great resource!</p>
+                            </div>
+
+                        </div>
+                        <div class="main-card">
+                            
+                        </div>
+                        <div class="main-card">
+                            
+                        </div>
+                        <div class="main-card">
+                            
+                        </div>
+                        <div class="main-card">
+                            
+                        </div>
+                        <div class="main-card">
+                            
+                        </div>
+                        <div class="main-card">
+                            
+                        </div>
+                    </div>
+                    <div class="main-row"> <!-- Science -->
+                        <h2 class="main-row-heading">Science</h2>
+                        <div class="main-card">
+                        
+                        </div>
+                        <div class="main-card">
+                            
+                        </div>
+                        <div class="main-card">
+                            
+                        </div>
+                    </div>
+
+                    <div class="main-row"> <!-- Computer -->
+                        <h2 class="main-row-heading">Computer</h2>
+                        <div class="main-card">
+                            
+                        </div>
+                        <div class="main-card">
+                            
+                        </div>
+                        <div class="main-card">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <dl>
-          <dt>A list</dt>
-          <dd>part of the list</dd>
-        </dl>
 
-        <table>
-          <caption>My Table</caption>
-          <thead>
-            <tr>
-              <th>num1</th>
-              <th>num2</th>
-              <th>num3</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
 
-              <td>two</td>
-              <td>three</td>
-              <td>three</td>
-            </tr>
-            <tr>
-              <td>four</td>
-              <td>five</td>
-              <td>six</td>
-            </tr>
-          </tbody>
-        </table>
 
-        <input type="text" value="Enter your email" />
-        <input type="password" />
-        <input type="number" />
-        <input type="checkbox" />
-        <input type="color" />
-        <input type="date" />
-        <input type="email" />
-        <input type="file" />
-        <input type="radio" />
-        <input type="submit" />
-        <input type="time" />
-        <input type="url" />
 
-        <input name="btn" type="radio" />
-        <input name="btn" type="radio" />
 
-        <textarea rows="10" cols="30">Enter a sentence.</textarea>
-        <p>
+        <!-- Intro -->  
+        <div class="intro">  
+            <div class="intro-text1"> Nowadays you can learn anything on the internet.</div>
+            <div class="intro-text2"> Why not let us make it easier?</div>
+        </div>  
 
-          <!-- for a embed website
-       not all websites can be used as an iframe, because of security purposes -->
-          <iframe src="https://www.mikedane.com/programming-languages/c++/math/" frameborder="0" width="1000" height="1000">iframe not supported</iframe>
+    
+        
+        <div class="footer">
+            <div class="footer-container"> 
+                <div class="footer-content">
+                    <div class="footer-content-col">
+                        <div class="footer-content-col-label">
+                            <a href="#" class=footer-content-col-label-text>Subjects</a><br>
+                        </div>
+                        <ul class="footer-content-col-list"> 
+                            <li class="footer-content-col-list-item" href="#"></li><br>
+                                <a href="#" class="footer-content-col-list-item-a">Math</a>
+                            <li class="footer-content-col-list-item" href="#"></li><br>
+                                <a href="#" class="footer-content-col-list-item-a">Computer</a>
+                            <li class="footer-content-col-list-item" href="#"></li><br>
+                                <a href="#" class="footer-content-col-list-item-a">Science</a>
 
-</body>
+                        </ul>
+                    </div>
 
+                    <div class="footer-content-col">
+                        <div class="footer-content-col-label">
+                            <a href="#" class="footer-content-col-label-text">Contact Us</a><br>
+                        </div>
+                        <ul class="footer-content-col-list">
+                            <li class="footer-content-col-list-item" href="#"></li><br>
+                                <a href="#" class="footer-content-col-list-item-a">Email Us</a>
+                        </ul>
+                    </div>
+
+                    <div class="footer-content-col">
+                        <div class="footer-content-col-label">
+                            <a href="#" class="footer-content-col-label-text">About Us</a>
+                        </div>
+                        <ul class="footer-content-col-list">
+                            <li class="footer-content-col-list-item" href="#"></li><br>
+                                <a href="#" class="footer-content-col-list-item-a">Disclaimer</a>
+                        </ul>
+
+                    </div>
+
+                    <div class="footer-content-col">
+                        <div class="footer-content-col-label">
+                            <div class="footer-content-col-label-container">
+                                <a class="footer-content-col-label-heading">Help us help others!</a>
+                                <p class="footer-content-col-label-paragraph">StudyHelper is an open web portal that 
+                                    collects educational content for everyone to use. Your
+                                    contribution helps others gain access to a wide variety of resources.
+                                </p>
+                            </div>
+                        </div>
+                    </div>                       
+                </div> 
+                <div class="footer-content-bar">
+                    <div class="footer-content-bar-legal">© 2021 StudyHelper</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="/javascript/home-page.js"></script>
+</body> 
 </html>
