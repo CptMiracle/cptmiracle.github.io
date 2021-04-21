@@ -241,13 +241,16 @@ nav a {
   padding-left: 40px;
   max-width: 1168px;
   flex-wrap: wrap;
-  margin-bottom: 50px;
-  margin:auto;
+  padding-bottom: 50px;
+  margin: auto;
 }
 
 .main-row-heading {
   display: block;
   position: absolute;
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
 }
 
 .main-card {
