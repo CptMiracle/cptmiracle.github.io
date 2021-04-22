@@ -26,20 +26,26 @@
         <section>
             <div class="header" id="myheader">
                 <!-- nav bar -->
-                <nav class="navigation">
-                    <h1 id="headerh1"><a href="/" id="headera">StudyHelper</a></h1>
-                        <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbutton" id="dropbutton" href="/">Subjects</button>
-                                <span class="arrow-up"></span>
-                                <span class="arrow-down"></span>
-                                <div class="dropdown-links">
-                                    <a href="#">Math</a><br>
-                                    <a href="#">Computer</a><br>
-                                    <a href="#">Science</a><br>
-                                </div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <h1 id="headerh1"><a href="/" class="navbar-brand">StudyHelper</a></h1>
                         </div>
-                        <a href="#" class="about-us-button"> About Us </a>
-                        <a href="/html/contactus.html" class="contact-us-button"> Contact Us </a>
+                            <ul class="nav navbar-nav navbar-left">
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="/">Subjects<span class="caret"></span></a>
+                                    <span class="arrow-up"></span>
+                                    <span class="arrow-down"></span>
+                                    <div class="dropdown-links">
+                                        <a href="#">Math</a><br>
+                                        <a href="#">Computer</a><br>
+                                        <a href="#">Science</a><br>
+                                    </div>
+                                </li>
+                                <a href="#" class="about-us-button"> About Us </a>
+                                <a href="/html/contactus.html" class="contact-us-button"> Contact Us </a>
+                            </ul>
+                    </div>
                 </nav>
             </div>
         </section>
@@ -69,7 +75,7 @@
                                     <img src="/img/StudyHelper home image.jpeg" onmouseover="this.src='/gifs/jensenmath3.gif'" onmouseout="this.src='/img/StudyHelper home image.jpeg'"/>
                                 </div>
                                 <div class="main-card-content">
-                                    <a class="main-card-title">Jensenmath.ca</a>
+                                    <h6 class="main-card-title">Jensenmath.ca</h6>
                                     <p class="main-card-description">A great resource!</p>
                                 </div>
 
@@ -79,7 +85,7 @@
                                     <img src="/img/StudyHelper home image.jpeg" onmouseover="this.src='/gifs/jensenmath3.gif'" onmouseout="this.src='/img/StudyHelper home image.jpeg'"/>
                                 </div>
                                 <div class="main-card-content">
-                                    <a class="main-card-title">Ms Havrot's math - Youtube</a>
+                                    <h6 class="main-card-title">Ms Havrot's math - Youtube</h6>
                                     <p class="main-card-description">A great resource!</p>
                                 </div>
 
@@ -89,7 +95,7 @@
                                     <img src="/img/StudyHelper home image.jpeg" onmouseover="this.src='/gifs/jensenmath3.gif'" onmouseout="this.src='/img/StudyHelper home image.jpeg'"/>
                                 </div>
                                 <div class="main-card-content">
-                                    <a class="main-card-title">Brian McLogan - Youtube</a>
+                                    <h6 class="main-card-title">Brian McLogan - Youtube</h6>
                                     <p class="main-card-description">A great resource!</p>
                                 </div>
 
@@ -192,7 +198,7 @@
                         <div class="footer-content-col">
                             <div class="footer-content-col-label">
                                 <div class="footer-content-col-label-container">
-                                    <a class="footer-content-col-label-heading">Help us help others!</a>
+                                    <p class="footer-content-col-label-heading">Help us help others!</p>
                                     <p class="footer-content-col-label-paragraph">StudyHelper is an open web portal that 
                                         collects educational content for everyone to use. Your
                                         contribution helps others gain access to a wide variety of resources.
