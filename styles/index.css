@@ -24,8 +24,17 @@ html,body {
   padding: 20px 0;
   margin-bottom: -10px;
   border: 1px lightgrey solid;
-  
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .navigation {
+  padding-top: 102px;
+}
+
 #headera {
   color: rgb(45, 55, 133);
 }
@@ -180,7 +189,7 @@ nav a {
   transform: translate(-50%, -50%);
   color: white;
   font-family: Helvetica, sans-serif;
-  font-size: 4vw;
+  font-size: 3vw;
   width: 100%;
   text-align: center;
   word-wrap: break-word;
@@ -193,7 +202,7 @@ nav a {
   transform: translate(-50%, -50%);
   color: lightgray;
   font-family: Roboto, Sans-serif;
-  font-size: 2.5vw;
+  font-size: 2vw;
   width: 100%;
   text-align: center;
   word-wrap: break-word;
@@ -223,7 +232,8 @@ nav a {
 /* Main */
 
 .main-container {
-  max-width: 100%;
+  max-width: 1168px;
+  margin: auto;
   height: auto;
 }
 
@@ -407,7 +417,7 @@ nav a {
 }
 
 
-.footer-content-social-container .footer-content-github {
+.footer-content-social-container .footer-content-icon {
   cursor: pointer;
   width: 2.5em;
   padding-bottom: 20px;
