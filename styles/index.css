@@ -24,17 +24,8 @@ html,body {
   padding: 20px 0;
   margin-bottom: -10px;
   border: 1px lightgrey solid;
+  
 }
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-.sticky + .navigation {
-  padding-top: 102px;
-}
-
 #headera {
   color: rgb(45, 55, 133);
 }
@@ -46,6 +37,8 @@ html,body {
 
 nav h1 {
   margin: 0 20px;
+  height: auto;
+  font-size: 1.7rem;
 }
 
 nav a {
@@ -53,7 +46,6 @@ nav a {
   color: black;
   text-decoration: none;
 }
-
 
 .dropdown {
   position: relative;
