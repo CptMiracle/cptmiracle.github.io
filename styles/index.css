@@ -318,7 +318,7 @@ nav a {
   flex-wrap: wrap;
   padding-left: 50px;
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   padding-right: 50px;
   font-family: Roboto, Sans-serif;
   max-width: 1168px;
@@ -399,10 +399,21 @@ nav a {
   text-align: center;
   display: block;
   width: 100%;
-  height: 30px;
+  height: auto;
+}
+
+.footer-content-social {
+  height: auto;
+}
+
+
+.footer-content-social-container .footer-content-github {
+  cursor: pointer;
+  width: 2.5em;
+  padding-bottom: 20px;
 }
 
 .footer-content-bar-legal {
   color: white;
-  margin-bottom: 100px;
+  padding-bottom: 25px;
 }
