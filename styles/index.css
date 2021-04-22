@@ -179,7 +179,7 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: Roboto, Sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 4vw;
   width: 100%;
   text-align: center;
@@ -239,7 +239,7 @@ nav a {
   display: flex;
   justify-content: left;
   padding-left: 40px;
-  max-width: 1168px;
+  width: 100%;
   flex-wrap: wrap;
   padding-bottom: 50px;
   margin: auto;
@@ -269,6 +269,7 @@ nav a {
 
 .main-card:hover {
   box-shadow: 0px 2px 15px rgba(0,0,0,0.6);
+  transition: 500ms;
 }
 
 .main-card img {
