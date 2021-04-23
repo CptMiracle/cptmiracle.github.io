@@ -21,137 +21,32 @@ html, body {
 
 }
 
-.navigation {
-  padding-left: 50px;
-  display: flex;
-  align-items: center;
-  padding: 20px 0;
-  margin: -1px -1px -10px -1px;
-  /* border-bottom: 1px #fae4d667; */
-  
-}
-
 @media (max-width: 768px) {
   .navigation {
     display: none;
   }
 }
 
-#headera {
-  color: rgb(45, 55, 133);
-}
-
-#headera:hover, .navigation > a:hover {
+#navbar-title:hover, #nav a:hover {
+  cursor: pointer;
   color: #0062a0;
   transition: 250ms;
 }
 
-nav h1 {
-  margin: 0 20px;
-  height: auto;
-  font-size: 1.7rem;
-}
-
-nav a {
-  margin: 0 20px;
-  color: black;
+#nav a{
+  margin-right: 40px;
   text-decoration: none;
-}
-
-.dropdown {
-  position: relative;
-}
-
-.dropdown:hover .dropbutton {
-  color: #0062a0;
-  cursor: pointer;  
-  transition: 150ms;
-}
-
-.dropbutton {
-  background-color:#e9e9e9;
-  display: inline-block;
-  border: none;
-  font-size: 17px;
-  outline: none;
-}
-
-
-/* Default is invisible */
-.dropdown-links { 
-  display: none;
-  position: absolute;
-  background-color: #fae4d667;
-  min-width: 150px;
-  min-height: 150px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.25);
-  z-index: 1;
-}
-
-.dropdown-links a {
-
   color: black;
-  display: block;
-  padding: 5px;
-
 }
 
-.dropdown-links a:hover {
-  color: #0062a0;
-  transition: 250ms;
-
-}
-
-.dropdown:hover .dropdown-links{
-  text-align: center;
-  display: block;
-  padding-top: 20px;
-  
-}
-
-.dropdown:hover .arrow-up {
-  position: relative;
-  right: 3px;
-  bottom: 11px;
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #0062a0;
-}
-
-.dropdown:hover > .arrow-down {
-  display: none;
-}
-
-.arrow-down {
-  position: relative;
-  right: 3px;
-  top: 12px;
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid black;
-}
-
-.about-us-button {
-  padding-left: 20px;
-}
-
-.about-us-button:hover {
-  cursor: pointer;
-}
-
-.contact-us-button:hover {
-  cursor: pointer;
+.text-nowrap {
+  white-space: normal !important;
 }
 
 /* Feature Image */
 
 .feature-image-image {
   position: center;
-  margin-top: 10px;
   width: 100%;
   height: auto;
   opacity: 0.5;
@@ -165,21 +60,8 @@ nav a {
   position: relative;
 }
 
-.feature-image-container:before {
-  background-color: blue;
-  width: 100%;
-  content: "";
-   
-}
 .feature-image-content {
   max-width: 10px;
-}
-
-.feature-image-filter {
-  position: absolute;
-  content: "";
-  color: blue;
-  width: 100%;
 }
 
 
