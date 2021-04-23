@@ -14,11 +14,10 @@ html, body {
 
 /* Header and Navigation */
 
-.header {
-  font-family: Roboto, Sans-serif;
-  text-align: center;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
+#navbar-header-center {
+  height: auto;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 768px) {
@@ -27,21 +26,37 @@ html, body {
   }
 }
 
+#navbar-title {
+  font-size: 1.5rem;
+  color: #4d4d4d;
+}
+
 #navbar-title:hover, #nav a:hover {
   cursor: pointer;
   color: #0062a0;
   transition: 250ms;
 }
 
+.nav-item {
+  margin: 0 0.8em;
+}
+
 #nav a{
   margin-right: 40px;
   text-decoration: none;
-  color: black;
 }
 
 .text-nowrap {
   white-space: normal !important;
 }
+
+
+
+
+
+
+
+
 
 /* Feature Image */
 
@@ -114,7 +129,7 @@ html, body {
 
 
 
-/* Main */
+/*------------- Main --------------*/
 
 
 .main-container {
@@ -280,6 +295,10 @@ html, body {
   border: 1px solid white;
   padding: 5px 10px 0px 10px;
   display: relative;
+}
+
+.footer-content-col-label-text {
+  text-decoration: none !important;
 }
 
 .footer-content-col-label-heading {

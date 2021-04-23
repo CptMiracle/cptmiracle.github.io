@@ -20,3 +20,5 @@ for ex. (#navvv a{
   text-decoration: none;
   color: black;
 })
+
+For the cards, if it is mobile, make it a carousel instead of making it vertical down which would take up too much space
