@@ -1,12 +1,16 @@
 
-html, body {
+html {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
-  background-color: #fae4d667; 
 }
 
+body {
+  background-color: #fae4d667;
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -27,6 +31,10 @@ html, body {
 #navbar-title {
   font-size: 1.5rem;
   color: #4d4d4d;
+}
+
+.container-fluid {
+  padding: 0px 100px 0px 100px;
 }
 
 #navbar-title:hover, #nav a:hover {
@@ -54,19 +62,14 @@ html, body {
 
 
 
-
-
 /* Feature Image */
 
 .feature-image-image {
-  position: center;
-  width: 100%;
-  height: auto;
+  min-width: 100%;
   opacity: 0.5;
   filter: brightness(35%);
-  filter: bluescale(50%);
   display: flex;
-  background-color: white;
+  background-color: #fae4d667;
 }
 
 .feature-image-container {
@@ -87,7 +90,7 @@ html, body {
   transform: translate(-50%, -50%);
   color: white;
   font-family: Helvetica, sans-serif;
-  font-size: 3vw;
+  font-size: calc(12px + 1.5vw);
   width: 100%;
   text-align: center;
   word-wrap: break-word;
@@ -95,12 +98,12 @@ html, body {
 
 .feature-image-subtext {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: lightgray;
+  color: rgb(228, 227, 227);
   font-family: Roboto, Sans-serif;
-  font-size: 2vw;
+  font-size: calc(3px + 1.5vw);
   width: 100%;
   text-align: center;
   word-wrap: break-word;
@@ -148,7 +151,7 @@ html, body {
 .main-row {
   display: flex;
   justify-content: left;
-  padding-left: 40px;
+  padding-left: 80px;
   width: 100%;
   flex-wrap: wrap;
   padding-bottom: 50px;
@@ -179,7 +182,7 @@ html, body {
 
 .main-card:hover {
   box-shadow: 0px 2px 15px rgba(0,0,0,0.6);
-  transition: 500ms;
+  transition: 250ms;
 }
 
 .main-card img {
@@ -204,9 +207,16 @@ html, body {
   text-decoration: none;
 }
 
-
-
-
+.main-card-description-sub {
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  max-width: 290px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
 
 
@@ -320,11 +330,25 @@ html, body {
   height: auto;
 }
 
+.footer-content-social-container {
+  box-sizing: border-box;
+}
+
+.footer-content-social-container .text-center {
+  color: white;
+  margin-bottom: 0;
+}
+
 
 .footer-content-social-container .footer-content-icon {
   cursor: pointer;
-  width: 2.5em;
-  padding-bottom: 20px;
+  margin: 0 10px;
+  padding-bottom: 10px;
+}
+
+.footer-content-social-container img {
+  height: auto;
+  width: 40px;
 }
 
 .footer-content-bar-legal {

@@ -3,7 +3,7 @@
 <head>
     <title> home-page </title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="description" content>
     <meta name="keywords" content="education, school, study, ontario, canada">
 
@@ -18,13 +18,13 @@
     <link rel="stylesheet" type="text/css" href="/styles/index.css" />
     
 </head>
-<body style="overflow: visible;">
+<body>
     <div class="main">
         <!-- header -->
-        <section>
+        <header>
             <div class="header" id="myheader">
                 <!-- nav bar -->
-                <nav class="navbar navbar-expand-lg navbar-light shadow p-3 rounded">
+                <nav class="navbar navbar-expand-lg navbar-light shadow-lg p-3 bg-body">
                     <div class="container-fluid">
                         <div class="navbar-header">
                             <h1 class="justify-content-center" id="navbar-header-center"><a href="/" class="navbar-brand my-auto font-weight-bold text-up font-size-1.5rem" id="navbar-title">StudyHelper</a></h1>
@@ -49,11 +49,11 @@
 
                 </nav>
             </div>
-        </section>
+        </header>
         <section>
             <div class="feature-image">
                 <div class="feature-image-container">
-                    <img src="/img/StudyHelper home image.jpeg" class="feature-image-image" alt="laptop and books on table"></img>
+                    <img src="/img/hero-image.jpg" class="feature-image-image" alt="hero-image"></img>
                     <div class="feature-image-content">
                         <div class="feature-image-header">Connecting you to higher content</div>
                         <div class="feature-image-filter"></div>
@@ -78,6 +78,7 @@
                                 <div class="main-card-content">
                                     <h6 class="main-card-title">Jensenmath.ca</h6>
                                     <p class="main-card-description">A great resource!</p>
+                                    <div class="main-card-description-sub">https://www.jensenmath.ca/</div>
                                 </div>
 
                             </div>
@@ -89,6 +90,7 @@
                                 <div class="main-card-content">
                                     <h6 class="main-card-title">Ms Havrot's math - Youtube</h6>
                                     <p class="main-card-description">A great resource!</p>
+                                    <div class="main-card-description-sub">https://www.youtube.com/channel/UCmAUuVxguXIddAXgmFjePAA/featured</div>
                                 </div>
 
                             </div>
@@ -99,6 +101,7 @@
                                 <div class="main-card-content">
                                     <h6 class="main-card-title">Brian McLogan - Youtube</h6>
                                     <p class="main-card-description">A great resource!</p>
+                                    <div class="main-card-description-sub">https://www.youtube.com/channel/UCQv3dpUXUWvDFQarHrS5P9A</div>
                                 </div>
 
                             </div>
@@ -202,9 +205,10 @@
                     <div class="footer-content-bar">
                         <div class="footer-content-social">
                             <div class="footer-content-social-container">
-                                <img class="footer-content-icon" src="img/github-icon.png" alt="github" onclick='window.open("#");return false;'/>
-                                <img class="footer-content-icon" src="img/instagram-icon.png" alt="github" onclick='window.open("#");return false;'/>
-
+                                <a href="#"><img class="footer-content-icon" src="img/github-icon.png" alt="github" onclick='window.open("#");return false;'></a>
+                                <a href="#"><img class="footer-content-icon" src="img/instagram-icon.png" alt="instagram" onclick='window.open("#");return false;'></a>
+                                <a href="#"><img class="footer-content-icon" src="img/twitter-icon.png" alt="twitter" onclick='window.open("#");return false;'></a>
+                                <p class="text-center">Coded with care</p>
                             </div>
                         </div>
                         <div class="footer-content-bar-legal">© 2021 StudyHelper</div>
