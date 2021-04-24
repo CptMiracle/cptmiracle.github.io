@@ -28,10 +28,16 @@ body {
   }
 }
 
+.align-middle {
+  width: 70px;
+  padding-right: 10px;
+}
+
 #navbar-title {
   font-size: 1.5rem;
   color: #4d4d4d;
 }
+
 
 .container-fluid {
   padding: 0px 100px 0px 100px;
@@ -350,11 +356,24 @@ body {
   cursor: pointer;
   margin: 0 10px;
   padding-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.footer-content-social-container-border {
+  height: auto;
+  width: auto;
+  display: inline;
+}
+
+.footer-content-icon:hover {
+  background-color: rgba(255, 255, 255, 0.404);
+  transition: 150ms;
 }
 
 .footer-content-social-container img {
   height: auto;
-  width: 40px;
+  width: 55px;
 }
 
 .footer-content-bar-legal {
