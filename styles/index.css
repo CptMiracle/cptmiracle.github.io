@@ -170,7 +170,7 @@ body {
 .main-row {
   display: flex;
   justify-content: left;
-  padding-left: 80px;
+  padding-left: 40px;
   width: 100%;
   flex-wrap: wrap;
   padding-bottom: 50px;
