@@ -4,12 +4,10 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-
+  background-color: #fae4d667; 
 }
 
-.border {
-  background-color: #fae4d667;
-}
+
 
 
 /* Header and Navigation */

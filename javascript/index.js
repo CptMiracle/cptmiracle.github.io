@@ -12,6 +12,13 @@ function myFunction() {
     document.getElementById("main-card-id2").onmouseout = function() {
         document.getElementById("main-card-image-image2").src = this.src='/img/StudyHelper home image.jpeg';
     }
+
+    document.getElementById("main-card-id3").onmouseover = function() {
+        document.getElementById("main-card-image-image3").src = this.src='/gifs/jensenmath3.gif';
+    }
+    document.getElementById("main-card-id3").onmouseout = function() {
+        document.getElementById("main-card-image-image3").src = this.src='/img/StudyHelper home image.jpeg';
+    }
   }
     
 myFunction();
