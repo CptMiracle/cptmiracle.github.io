@@ -169,7 +169,6 @@ body {
 
 .main-row {
   display: flex;
-  justify-content: left;
   padding-left: 40px;
   width: 100%;
   flex-wrap: wrap;
