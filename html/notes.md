@@ -29,3 +29,5 @@ For subjects, create a scroll down with all the subjects on the left side and th
 Depending on the website, it may be imperative to ask for linking permissions.
 
 Create a button in the footer for the help section ("submit a resource") and link it to another page.
+
+And maybe make the feature image sub header have only apple emojis on both mac and windows (using img?)
