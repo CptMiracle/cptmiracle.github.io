@@ -66,6 +66,41 @@ body {
 
 
 
+/* Hero caption */
+
+.my-container {
+  max-width: 1168px;
+}
+
+.my-row {
+  width: 100%;
+}
+
+.hero-caption {
+  padding-top: 100px;
+  padding-left: 5%;
+}
+
+@media (min-width: 1000px) {
+  .hero-caption {
+    margin-left: -40px;
+  }
+}
+  
+
+
+.hero-caption-text {
+  display: inline;
+  width: 100%;
+  font-size: calc(20px + 1.5vw);
+  padding-bottom: 12px;
+  border-bottom: 1px solid lightgrey;
+}
+
+
+
+
+
 
 
 /* Footer */
