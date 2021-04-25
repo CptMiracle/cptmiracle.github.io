@@ -21,9 +21,11 @@ for ex. (#navvv a{
   color: black;
 })
 
-For the cards, if it is mobile, make it a carousel instead of making it vertical down which would take up too much space
-and also see if you can make the cards appear when scrolling down 
+For the cards, if the user is on mobile, display a carousel instead of a vertical down which would take up too much space
+and also see if you can make the cards appear when scrolling down
 
 For subjects, create a scroll down with all the subjects on the left side and the selected subject appear on the right
 
-If some websites have a copyright, try to ask permission first 
+Depending on the website, it may be imperative to ask for linking permissions.
+
+Create a button in the footer for the help section ("submit a resource") and link it to another page.
