@@ -22,3 +22,8 @@ for ex. (#navvv a{
 })
 
 For the cards, if it is mobile, make it a carousel instead of making it vertical down which would take up too much space
+and also see if you can make the cards appear when scrolling down 
+
+For subjects, create a scroll down with all the subjects on the left side and the selected subject appear on the right
+
+If some websites have a copyright, try to ask permission first 
