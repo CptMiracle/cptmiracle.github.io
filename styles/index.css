@@ -77,7 +77,7 @@ body {
 
 .feature-image-image {
   background-color: #fae4d667;
-  background: url(/img/hero-image.jpg);
+  background: url(/images/hero-image.jpg);
   height: 50vh;
   min-width: 100%;
   opacity: 0.5;
