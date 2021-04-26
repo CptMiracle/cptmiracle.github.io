@@ -55,6 +55,7 @@ function myFunction() {
     document.getElementById("main-card-id9").onmouseout = function() {
         document.getElementById("main-card-image-image9").src = this.src='/images/StudyHelper home image.jpeg';
     }
+    
   }
     
 myFunction();
