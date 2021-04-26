@@ -69,9 +69,14 @@ body {
 
 
 /* Hero caption */
+.hero-section {
+  background-color: #a018007a;
+  width: 100%;
+}
 
 .my-container {
   max-width: 1168px;
+  padding-bottom: 20px;
 }
 
 .my-row {
@@ -111,6 +116,8 @@ body {
 
 
 /* Main */
+
+
 
 .main-col .question-header {
   margin-top: 200px;

@@ -4,6 +4,8 @@ html {
   height: 100%;
   margin: 0px;
   padding: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   
 }
 
@@ -62,6 +64,76 @@ body {
 .text-nowrap {
   white-space: normal !important;
 }
+
+
+
+
+/* Hero caption */
+.hero-section {
+  background-color: #a018007a;
+  width: 100%;
+}
+
+.my-container {
+  max-width: 1168px;
+  padding-bottom: 20px;
+}
+
+.my-row {
+  width: 100%;
+}
+
+.my-col {
+  padding-right: 0px;
+  padding-left: 30px; 
+}
+
+.hero-caption {
+  padding-top: 100px;
+
+}
+
+
+.hero-caption-text {
+  display: inline;
+  width: 100%;
+  font-size: 3rem;
+  padding-bottom: 12px;
+  border-bottom: 1px solid lightgrey;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+  margin-top: 30px; 
+  padding: 0;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+/* Main */
+
+
+
+.main-col .question-header {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.main-col h1, .main-col p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+
+
+
 
 
 
