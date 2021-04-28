@@ -24,8 +24,6 @@ for ex. (#navvv a{
 For the cards, if the user is on mobile, display a carousel instead of a vertical down which would take up too much space
 and also see if you can make the cards appear when scrolling down
 
-For subjects, create a scroll down with all the subjects on the left side and the selected subject appear on the right
-
 Depending on the website, it may be imperative to ask for linking permissions.
 
 Create a button in the footer for the help section ("submit a resource") and link it to another page.
@@ -33,3 +31,7 @@ Create a button in the footer for the help section ("submit a resource") and lin
 And maybe make the feature image sub header have only apple emojis on both mac and windows (using img?)
 
 For subjects page, make side art something similar to the images on the side of Khan Academy courses dropdown.
+
+Create a linktree in the contact us section if needed.
+
+When the website is done, recreate the home page gifs and scroll down using the middle mouse click button for the smooth scroll.
