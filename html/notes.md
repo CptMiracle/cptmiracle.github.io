@@ -35,3 +35,5 @@ For subjects page, make side art something similar to the images on the side of 
 Create a linktree in the contact us section if needed.
 
 When the website is done, recreate the home page gifs and scroll down using the middle mouse click button for the smooth scroll.
+
+Maybe create a newsletter

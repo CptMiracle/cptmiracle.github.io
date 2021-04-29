@@ -117,6 +117,9 @@ html {
   
   /* Main */
   
+  .main {
+    margin-top: 40px;
+  }
   
   
   .main-col {
@@ -177,10 +180,13 @@ html {
   
   .card-date {
     font-size: 0.85rem;
+    margin-bottom: 0px;
   }
 
   
-  
+  .pages {
+    margin-top: 50px;
+  }
   
   
   

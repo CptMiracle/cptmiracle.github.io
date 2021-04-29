@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact Us | StudyHelper</title>
+    <title>Math | StudyHelper</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="description" content>
@@ -16,7 +16,7 @@
     
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
 
-    <link rel="stylesheet" type="text/css" href="/styles/contactus.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/subject/math.css"/>
     
 </head>
 <body>
@@ -59,13 +59,14 @@
             <div class="row my-row">
                 <div class="col-md-6 my-col">
                     <div class="hero-caption">
-                        <h1 class="hero-caption-text">Contact Us</h1>
+                        <h1 class="hero-caption-text">Mathematics</h1>
                     </div>
                     <!-- Breadcrumb -->
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb bg-transparent">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                            <li class="breadcrumb-item"><a href="#">Subjects</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Mathematics</li>
                         </ol>
                     </nav>
                     
@@ -79,29 +80,36 @@
 
     <!-- Main -->
 
-    <section>
+    <section class="main">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-auto col-sm-auto main-col">
-                    <div class="question-header">
-                        <h1> Have a question or a concern? </h1>
-                        <div class="question-subheader">
-                            <p> Please email us at: <a href="#">email</a></p>
-                        </div>
+                <div class="col-md-12">
+                    <div class="card card-1" onclick='window.open("https://www.jensenmath.ca/");return false;'>
+                      <h3>Jensenmath.ca</h3>
+                      <p>https://www.jensenmath.ca/</p>
+                      <p class="card-date">Date added: 2021/04/27</p>
                     </div>
-                    
-
-                    <div class="question-header">
-                        <h1> Want to submit a resource? </h1>
-                        <div class="question-subheader">
-                            <p> Please go to <a href="#">submit a resource.</a></p>
-                        </div>
-                    </div>
-                    
-                </div>
+                  </div>
+                 
+                  
             </div>
         </div>
 
+
+        <div class="pages">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="/html/subject/math.html" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="/html/subject/math.html">1</a></li>
+                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+                </ul>
+            </nav>
+        </div>
 
 
     </section>
@@ -178,5 +186,6 @@
             </div>
         </div>
     </section>
+    
 </body> 
 </html>
