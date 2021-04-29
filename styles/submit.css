@@ -99,13 +99,12 @@ body {
   width: 100%;
   font-size: 3rem;
   padding-bottom: 12px;
-  border-bottom: 1px solid lightgrey;
 }
 
 /* Breadcrumb */
 
 .breadcrumb {
-  margin-top: 30px; 
+  margin-top: 15px; 
   padding: 0;
   font-size: 1rem;
 }
