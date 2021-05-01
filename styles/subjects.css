@@ -164,7 +164,7 @@ html {
   
   .footer-content-col-label {
     letter-spacing: 1px;
-    width: 200px;
+    width: 100%;
   }
   
   .footer-content-col-label-text {
@@ -180,12 +180,11 @@ html {
     transition: 250ms;
   }
   
-  .footer-content-col-list {
-    padding: 0;
-    list-style-type: none;
-    width: 200px;
-  }
-  
+.footer-content-col-list {
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
   .footer-content-col-list-item-a {
     color: white;
     padding-bottom: 1px;
@@ -212,13 +211,7 @@ html {
     }
   }
   
-  .footer-content-col-label-container {
-    border: 1px solid white;
-    padding: 5px 10px 0px 10px;
-    display: relative;
-    width: 150%;
-  }
-  
+ 
   .footer-content-col-label-text {
     text-decoration: none !important;
   }
