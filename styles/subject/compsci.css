@@ -22,8 +22,8 @@ html {
   
   #navbar-header-center {
     height: auto;
-    padding-bottom: 5px;
-  }
+    margin: 0;
+    }
   
   @media (max-width: 768px) {
     .navigation {
