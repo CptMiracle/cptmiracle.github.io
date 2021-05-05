@@ -134,6 +134,12 @@ body {
 .bottom {
   position: relative;
 }
+
+.bottom-box {
+  background-color: white;
+  width: 1000px;
+}
+
 .bottom-container {
   margin-top: 300px;
   margin-bottom: 300px;
