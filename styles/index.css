@@ -6,7 +6,7 @@ html {
   padding: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  scroll-behavior: smooth;
 }
 
 body {
@@ -14,6 +14,7 @@ body {
   max-width: 100%;
   height: 100%;
   overflow: visible;
+  
 }
 
 
@@ -133,16 +134,20 @@ body {
 
 .bottom {
   position: relative;
+  margin-top: 300px;
+  margin-bottom: 300px;
 }
 
 .bottom-box {
   background-color: white;
-  width: 1000px;
+  width: 40%;
+  
+  margin: auto;
+  border-radius: 30px;
 }
 
 .bottom-container {
-  margin-top: 300px;
-  margin-bottom: 300px;
+  padding: 30px;
 }
 
 .bottom-text1 {
@@ -152,7 +157,7 @@ body {
 }
 
 .bottom-text2 {
-  margin-top: 150px;
+  margin-top: 80px;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -400,4 +405,14 @@ body {
 
 #footer-button {
   margin: auto;
+}
+
+
+/* Scroll up */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+
 }

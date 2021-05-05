@@ -6,7 +6,7 @@ html {
     padding: 0px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    
+    scroll-behavior: smooth;
   }
   
   body {
@@ -336,4 +336,10 @@ html {
   .footer-content-bar-legal {
     color: white;
     padding-bottom: 25px;
+  }
+  .scroll-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+  
   }
