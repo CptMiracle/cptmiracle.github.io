@@ -76,7 +76,7 @@ body {
 /* Feature Image */
 
 .feature-image {
-  box-shadow: 0px 11px 10px -1px rgba(0,0,0,0.2) inset, 0px -11px 10px -1px rgba(0,0,0,0.2) inset !important;
+  box-shadow: 0px 11px 10px -1px rgba(0,0,0,0.1) inset !important;
 }
 
 .feature-image-image {
