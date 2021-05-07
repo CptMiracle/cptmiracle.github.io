@@ -144,17 +144,22 @@ body {
 
 .bottom {
   position: relative;
-  margin-top: 300px;
+  margin-top: 200px;
   margin-bottom: 300px;
 }
 
 
 .bottom-box {
   background-color: white;
-  width: 500px;
-  
-  margin: auto;
+  max-width: 500px;
+  margin: auto; 
   border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+  .bottom-box {
+    max-width: 400px;
+  }
 }
 
 .bottom-container {
