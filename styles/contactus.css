@@ -116,10 +116,14 @@ body {
 
 /* Main */
 
-
+.image-container .img-fluid {
+  width: 50%;
+  margin: 50px auto;
+  display: block;
+}
 
 .main-col .question-header {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 200px;
 }
 

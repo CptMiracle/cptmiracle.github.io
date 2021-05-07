@@ -37,3 +37,8 @@ Create a linktree in the contact us section if needed.
 When the website is done, recreate the home page gifs and scroll down using the middle mouse click button for the smooth scroll.
 
 Maybe create a newsletter
+
+Hexcode for icon color: DD6100
+
+Align image center:
+https://stackoverflow.com/questions/7055393/center-image-using-text-align-center
