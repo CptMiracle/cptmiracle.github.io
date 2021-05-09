@@ -160,6 +160,8 @@ body {
   max-width: 500px;
   margin: auto; 
   border-radius: 30px;
+  box-shadow: 0 15px 20px rgba(0,0,0,.08);
+
 }
 
 @media (max-width: 768px) {
@@ -242,13 +244,13 @@ body {
   height: 290px;
   width: 313px;
   box-sizing: border-box;
-  box-shadow: 0px 2px 10px rgba(0,0,0,0.6);
+  box-shadow: 0px 8px 10px rgba(0,0,0,0.2);
   cursor: pointer;
   border-radius: 4px;
 }
 
 .main-card:hover {
-  box-shadow: 0px 2px 20px rgba(0,0,0,0.6);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
   transition: 250ms;
 }
 
