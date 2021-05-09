@@ -39,6 +39,6 @@ When the website is done, recreate the home page gifs and scroll down using the 
 Maybe create a newsletter
 
 Hexcode for icon color: DD6100
-
+Hexcode for hero color: d08a7c
 Align image center:
 https://stackoverflow.com/questions/7055393/center-image-using-text-align-center
