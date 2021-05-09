@@ -55,6 +55,14 @@ html {
   .nav-item {
     margin: 0 0.8em;
   }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+  }
   
   #nav a{
     margin-right: 40px;
