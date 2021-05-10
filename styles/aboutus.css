@@ -65,7 +65,13 @@ html {
     white-space: normal !important;
   }
   
-  
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+  }
   
   
   /* Hero caption */

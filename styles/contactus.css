@@ -64,7 +64,13 @@ body {
 .text-nowrap {
   white-space: normal !important;
 }
+.navbar-toggler {
+  border: none;
+}
 
+.navbar-toggler:focus {
+  outline: none;
+}
 
 
 

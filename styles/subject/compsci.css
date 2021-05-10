@@ -40,7 +40,13 @@ html {
     font-size: 1.5rem;
     color: #4d4d4d;
   }
-  
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+  }
   
   .container-fluid {
     padding: 0px 100px 0px 100px;
