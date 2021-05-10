@@ -42,3 +42,9 @@ Hexcode for icon color: DD6100
 Hexcode for hero color: d08a7c
 Align image center:
 https://stackoverflow.com/questions/7055393/center-image-using-text-align-center
+
+
+
+
+Update: Replace orange image themes for whitish or more cleaner colours. Maybe keep orange for hero blocks..
+
