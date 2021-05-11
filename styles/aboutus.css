@@ -106,6 +106,20 @@ html {
     font-size: 3rem;
     padding-bottom: 12px;
   }
+
+  .img-container-hero .img-fluid {
+    position: absolute;
+    height: 220px;
+    margin-top: 68px;
+    image-rendering: -webkit-optimize-contrast;
+  }
+
+  @media (max-width: 768px) {
+    .img-fluid {
+      display: none;
+    }
+  }
+  
   
   /* Breadcrumb */
   
