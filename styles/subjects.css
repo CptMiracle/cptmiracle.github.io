@@ -85,6 +85,7 @@ html {
   .my-container {
     max-width: 1168px;
     padding-bottom: 20px;
+    margin-bottom: 70px;
   }
   
   .my-row {
@@ -137,13 +138,28 @@ html {
   
   
   /* Main */
-  
+
+
+  .main-col-container{
+    background-color: white;
+    padding: 5rem;
+    border-radius: 20px;
+  }  
+
   .subject a {
     font-size: 2rem;
-  }  
+  } 
+
+  .subject-name p {
+    text-align: center;
+  }
   
   .subject {
-      margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #subject-last {
+    margin: 0;
   }
   
   
