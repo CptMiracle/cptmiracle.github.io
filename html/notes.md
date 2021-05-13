@@ -48,3 +48,4 @@ https://stackoverflow.com/questions/7055393/center-image-using-text-align-center
 
 Update: Replace orange image themes for whitish or more cleaner colours. Maybe keep orange for hero blocks..
 
+https://www.w3schools.com/css/css3_gradients.asp
