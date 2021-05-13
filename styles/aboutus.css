@@ -157,7 +157,9 @@ html {
   }
 
   .row-justify {
-    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+
   }
   
   .my-main-col1, .my-main-col2 {
