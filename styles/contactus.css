@@ -137,7 +137,7 @@ body {
 
 .image-container .img-fluid {
   left: 50%;
-  margin: 0 auto;
+  margin: -70px auto;
   width: 400px;
   display: block;
 }
