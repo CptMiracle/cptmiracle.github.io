@@ -7,3 +7,5 @@ Subjects we currently offer:
 - Comp Sci
 - English
 - Misc.
+
+Website is under development, some features are not completed :)
