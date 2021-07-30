@@ -8,4 +8,5 @@ Subjects we currently offer:
 - English
 - Misc.
 
-Website is under development, some features are not completed :)
+Website is unfinished, more features will be implemented!
+:smile:
